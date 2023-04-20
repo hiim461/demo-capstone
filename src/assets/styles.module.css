@@ -1,0 +1,31 @@
+.logo img {
+  max-height: 39px;
+  border-radius: 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  max-width: 72rem;
+  width: 100%;
+  padding: 0 20px;
+}
+.header_nav {
+  background-color: white;
+}
+.home {
+  position: relative;
+  /* overflow-y: scroll; */
+}
+.xxx {
+  position: relative;
+}
+.stickyNav {
+  /* display: block!important; */
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  border: 1px solid #ddd;
+
+}
