@@ -1,11 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import "bootstrap/dist/css/bootstrap.min.css"
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
+import "./assets/styles.module.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+// const dropdown = document.querySelector(".dropdown");
+// const dropdownMenu = document.querySelector(".dropdown-menu");
+// if (dropdown) {
+//   dropdown.addEventListener("mouseenter", function () {
+//     dropdownMenu.style.display = "block";
+//   });
+
+//   dropdown.addEventListener("mouseleave", function () {
+//     return (dropdownMenu.style.display = "none");
+//   });
+// }
 root.render(
   <React.StrictMode>
     <App />

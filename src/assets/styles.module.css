@@ -12,7 +12,6 @@
   padding: 0 20px;
 }
 .header_nav {
-  background-color: white;
 }
 .home {
   position: relative;
@@ -25,7 +24,16 @@
   /* display: block!important; */
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 20;
   border: 1px solid #ddd;
-
+  background-color: white;
 }
+
+/* =========== */
+/* .dropdown-menu {
+  display: none;
+}
+
+.dropdown:hover +.dropdown-menu {
+  display: block;
+} */
